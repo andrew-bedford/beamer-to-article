@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="beamer-to-article:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/beamer_to_article_jar</output-path>
+    <root id="archive" name="beamer-to-article.jar">
+      <element id="module-output" name="beamer-to-article" />
+    </root>
+  </artifact>
+</component>

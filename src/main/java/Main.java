@@ -38,6 +38,7 @@ public class Main {
 
     private static void changeBeamerDocumentClassToArticle() {
         document = document.replace("\\documentclass[notheorems]{beamer}", "\\documentclass{article}");
+        document = document.replace("\\documentclass{beamer}", "\\documentclass{article}");
     }
 
     private static void convertFramesIntoParagraphs() {
